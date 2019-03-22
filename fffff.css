@@ -1,0 +1,207 @@
+
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+
+.mast1{
+    text-align: center;
+    color: #fff;
+     background-image: url("img/04-full.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+   min-height: 500px;
+}
+
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+
+div {
+    display: block;
+}
+
+
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+  
+  article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+
+
+
+
+@media (min-width: 768px){
+header.mast1 .text1 {
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+
+}
+
+
+@media (min-width: 768px){
+header.mast1 .text1 .textin {
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 25px
+}
+
+@media (min-width: 768px){
+header.mast1 .text1 .textup {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 50px;
+    text-transform: uppercase!important;
+
+}
+
+.button {
+    font-size: 18px;
+    padding: 20px 40px;
+    background-color: yellow;
+    font-weight: 700;
+     text-align: center;
+    vertical-align: middle;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+@media (min-width: 768px){
+section {
+    padding: 150px 0;
+}
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+@media (min-width: 992px){
+.col-lg-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+   text-align: center!important;
+}
+
+}
+
+.col-lg-12{
+
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+section h2.sectionh1{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-transform: uppercase!important;
+}
+
+h2{
+	font-weight: 700;
+}
+
+h4{
+	font-weight: 700;
+	line-height: 1.2;
+    color: inherit;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+section h3.sectionsub {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    text-transform: none;
+    color: #6c757d!important;
+   }
+
+   .servicehead {
+    margin: 15px 0;
+    text-transform: none;
+   
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 1.75;
+    color:#6c757d!important;
+}
+
+.text-center{
+
+ text-align: center !important;
+}
