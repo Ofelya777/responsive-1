@@ -116,7 +116,11 @@ section {
 }
 
 
+<<<<<<< HEAD
 .col-lg-12  .col-md-4  .col-sm-4 .col-xl-4{
+=======
+.col-lg-12 .col-md-4{
+>>>>>>> b467ee2b2c7b272ce3bf8e5332fe00d3e6b4acb8
 
     position: relative;
     width: 100%;
@@ -173,6 +177,7 @@ p {
 
  text-align: center !important;
 }
+<<<<<<< HEAD
 
 #portfolio{
  background-color: #adb5bdeb;
@@ -279,3 +284,13 @@ img {
     flex: 0 0 100%;
     max-width: 100%;
   }
+=======
+	
+	.col-md-4{
+  -ms-flex: 0 0 33.333333%;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  text-align: center;
+
+}
+>>>>>>> b467ee2b2c7b272ce3bf8e5332fe00d3e6b4acb8
